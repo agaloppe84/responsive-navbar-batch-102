@@ -1,0 +1,28 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 500px;
+}
+
+.dropdown-toggle:hover {
+  cursor: pointer;
+}
+
+.fa-bars {
+  font-size: 30px;
+  color: rgb(200,60,30);
+  padding-right: 15px;
+}
+
+.fa-bars:hover {
+  color: magenta;
+}
